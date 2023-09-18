@@ -16,6 +16,9 @@ body {
 .mb{
     margin-bottom: 50px;
 }
+.mt-100{
+    margin-top: 100px;
+}
 /* ************ Header Start ************ */
 
 .logo {
@@ -32,9 +35,7 @@ body {
 
 /* ************ home section design Start ************ */
 
-.home {
-  /* background: url(../images/team.jpg) center/cover no-repeat;
-    filter: opacity(.5); */
+.home-container {
   position: relative;
 }
 .image-container {
@@ -46,7 +47,7 @@ body {
   z-index: -3;
 }
 
-.home-container {
+.home-top {
     width: 100%;
     min-height: 100px;
     border: 1rem solid #fa6156;
@@ -55,5 +56,12 @@ body {
 .btn-orange{
     background-color: #fa6156;
     color: #fff;
+}
+.icon-content{
+    background-color: #fa6156;
+}
+.icon-content img{
+  width: 5rem;
+  height: 5rem;
 }
 /* ************ home section design End ************ */
