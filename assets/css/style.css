@@ -154,10 +154,6 @@ a{
 
 
 /* ************ Testimonial section design Start ************ */
-.testimonial-area {
-  padding-bottom: 200px;
-}
-
 .testimonial-area .testimonial-more {
   text-align: center;
   margin-top: 20px;
@@ -219,7 +215,6 @@ a{
   border-left: 40px solid transparent;
   border-top: 45px solid #f6685e;
   border-right: 40px solid transparent;
-  -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
 }
 
@@ -243,3 +238,161 @@ a{
 }
 
 /* ************ Testimonial section design End ************ */
+
+
+/* ************ Team  section design Start ************ */
+.single-team {
+  position: relative;
+}
+.single-team .team-content {
+  background-color: white;
+  border-top: 3px solid #fa6156;
+  box-shadow: 21px 0px 48px rgba(41, 8, 155, 0.08);
+  padding: 25px 0 30px 0;
+  max-width: 265px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 0 0 5px 5px;
+  position: relative;
+  z-index: 1;
+  margin-top: -30px;
+}
+.single-team .team-content .title  {
+  color: #1c1c1c !important;
+  font-size: 24px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.single-team .team-content .subtitle {
+  font-size: 16px;
+}
+.single-team .team-thumb {
+  position: relative;
+  border-radius: 10px;
+}
+.single-team .team-thumb img {
+  width: 100%;
+  border-radius: 10px;
+  height: 260px;
+  object-fit: cover;
+}
+.single-team .team-thumb .image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.single-team .team-thumb .image::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(135deg, #f1554a 0%, #f6685e 45%, #fa6156 66%);
+  border-radius: 10px;
+  opacity: 0;
+  transition: 0.3s;
+}
+.single-team .sidebar-social {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+.single-team .sidebar-social li {
+  left: -10px;
+  position: relative;
+  transition: 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+.single-team .sidebar-social li a {
+  font-size: 16px;
+  height: 40px;
+  width: 40px;
+  margin-right: 0;
+  margin-bottom: 5px;
+}
+.single-team .sidebar-social li:nth-child(1) {
+  transition-delay: 0.1s;
+}
+.single-team .sidebar-social li:nth-child(2) {
+  transition-delay: 0.2s;
+}
+.single-team .sidebar-social li:nth-child(3) {
+  transition-delay: 0.3s;
+}
+.single-team .sidebar-social li:nth-child(4) {
+  transition-delay: 0.4s;
+}
+.single-team:hover .team-thumb .image::after {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.single-team:hover .sidebar-social li {
+  opacity: 1;
+  visibility: visible;
+  left: 10px;
+}
+
+.team-wrapper:nth-child(2n+2) {
+  margin-top: 50px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .team-wrapper:nth-child(2n+2) {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .team-wrapper:nth-child(2n+2) {
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .team-wrapper:nth-child(2n+2) {
+    margin-top: 0;
+  }
+}
+.member-identity .sidebar-social {
+  margin-top: 20px;
+}
+.member-identity .sidebar-social li a {
+  width: 50px;
+  height: 50px;
+}
+.sidebar-social li a {
+  height: 60px;
+  width: 60px;
+  font-size: 21px;
+  display: block;
+  color: white;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+.sidebar-social li .facebook {
+  background-color: #57f7ac;
+}
+.sidebar-social li .twitter {
+  background-color: #57f7ac;
+}
+.sidebar-social li .linkedin {
+  background-color: #57f7ac;
+}
+.sidebar-social li .instagram {
+  background-color: #57f7ac;
+}
+li{
+  list-style: none;
+}
+ul{
+  padding-left: 0 !important;
+}
+
+/* ************ Team section design End ************ */
