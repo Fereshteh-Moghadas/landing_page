@@ -137,3 +137,17 @@ a{
   width: 18%;
 }
 /* ************ company section design End ************ */
+
+/* ************ Portfolio section design Start ************ */
+.portfolio{
+  background-color: #d8d8d8;
+}
+.portfolio img{
+  height: 220px;
+  object-fit: cover;
+  transition: .5s ease;
+}
+.portfolio img:hover{
+  filter: grayscale(100%);
+}
+/* ************ Portfolio section design End ************ */
