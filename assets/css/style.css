@@ -396,3 +396,12 @@ ul{
 }
 
 /* ************ Team section design End ************ */
+
+
+/* ************ About section design Start ************ */
+
+.about-content{
+  background: url(../images/Slide1.JPG) center/cover fixed no-repeat;
+}
+
+/* ************ About section design End ************ */
