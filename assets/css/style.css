@@ -19,6 +19,9 @@ body {
 .mt-100{
     margin-top: 100px;
 }
+.card{
+  --bs-card-border-width: none !important;
+}
 /* ************ Header Start ************ */
 
 .logo {
@@ -65,3 +68,25 @@ body {
   height: 5rem;
 }
 /* ************ home section design End ************ */
+
+/* ************ services section design Start ************ */
+
+.card{
+  border-radius: 2rem;
+  border-top: 0.6rem solid #fa6156;
+  border-bottom: 0.6rem solid #fa6156;
+}
+#services a{
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid #888888;
+  transition: .5s ease;
+}
+#services a:hover{
+  border-bottom: 2px solid #fa6156;
+}
+#services img{
+  height: 269px;
+}
+
+/* ************ services section design End ************ */
