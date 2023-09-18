@@ -151,3 +151,95 @@ a{
   filter: grayscale(100%);
 }
 /* ************ Portfolio section design End ************ */
+
+
+/* ************ Testimonial section design Start ************ */
+.testimonial-area {
+  padding-bottom: 200px;
+}
+
+.testimonial-area .testimonial-more {
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+.testimonial-area .testimonial-more:before {
+  position: absolute;
+  content: '';
+  bottom: 22px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #fa6156;
+}
+
+.testimonial-area .testimonial-more:after {
+  position: absolute;
+  content: '';
+  bottom: 22px;
+  left: 0;
+  right: 0;
+  width: 180px;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+}
+
+.testimonial-item .testimonial-wrap {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.testimonial-item .testimonial-wrap img {
+  border-radius: 50%;
+  position: absolute;
+  left: 25px;
+  bottom: -25px;
+  max-width: 85px;
+}
+
+.testimonial-item .testimonial-wrap p {
+  margin-bottom: 50px;
+  background-color: #f6685e;
+  padding: 35px;
+  border-radius: 10px;
+  position: relative;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  color: white;
+}
+
+.testimonial-item .testimonial-wrap p:before {
+  position: absolute;
+  content: "";
+  bottom: -35px;
+  left: 28px;
+  border-left: 40px solid transparent;
+  border-top: 45px solid #f6685e;
+  border-right: 40px solid transparent;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+.testimonial-item .testimonial-wrap .testimonial-right {
+  padding-left: 125px;
+  position: relative;
+  top: 6px;
+}
+
+.testimonial-item .testimonial-wrap .testimonial-right h3 {
+  font-weight: 600;
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 8px;
+}
+
+.testimonial-item .testimonial-wrap .testimonial-right span {
+  display: block;
+  color: #f1554a;
+  font-size: 14px;
+}
+
+/* ************ Testimonial section design End ************ */
